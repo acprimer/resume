@@ -1,0 +1,166 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[zh,color,11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xeCJK}
+\setmonofont{Courier New}
+\setCJKmainfont{SimSun}
+\setCJKsansfont{KaiTi}
+\setCJKmonofont{SimHei}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Yao} % Your first name
+\familyname{Dahai} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\mobile{(+86) 152-1072-4792}
+\email{acprimer.yao@gmail.com}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{(+86) 152-1072-4792 \quad $\bullet$ \quad acprimer.yao@gmail.com\\https://github.com/acprimer}
+\homepage{https://github.com/acprimer}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Job Objective \quad--\quad Software Engineer Intern}
+
+\section{Education}
+
+\cventry{2013--2016}{Beihang University}{Beijing}{\quad Masters of Computer Science}{}{Graduate students first-class scholarship}  
+\cventry{2009--2013}{North China Electric Power University}{Beijing}{Bachelor of Computer Science}{top 10\%}{}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+
+
+	
+\section{Experience}
+
+
+\cventry{2014.4--now}{Android development}{ACT, Beihang University}{Beijing}{}{Develop an Android app in the project of iCrowd@Beihang -- subprogram of National Basic Research Program (973 Program).
+	\newline{}Project homepage: http://www.service4all.org.cn/iCrowd/
+	\newline{}
+	Detailed achievements:
+	\begin{itemize}
+		\item Conduct market research and demand analysis in Beihang University with the help of several students.
+		\item Design and implement APIs with JSP servlet.
+		\item Design and implement an Android app -- iCrowd with basic functions.
+		\item Product user experience research and iterative develop our app to enhance user experience.
+	\end{itemize}}
+	
+\cventry{2014.3--4}{Website development}{ACT, Beihang University}{Beijing}{}{Develop a website of commodity evaluation system. This system targets to accurate analyzing commodity reviews with the help of crowdsourcing.
+	\newline{}Project homepage: http://www.service4all.org.cn/crowdsourcing/ratings/
+	\newline{}
+	Detailed achievements:
+	\begin{itemize}
+		\item Design and implement the database using MySQL.
+		\item Design and implement the website using JSP.
+	\end{itemize}}
+	
+
+\cventry{2013.3--9}{Android development intern}
+{Ruiwuxingzhi Corporation}{Beijing}{}{During my internship, I took part in the company's core project--3GO(an Android app to gather GPRS or 3G flow by doing some tasks.) from start to finish. During that time, I have learned a lot of knowledge of Android development. In addition, I have accumulated rich experience in Android app development process for my future career.
+	\newline{}Project homepage: http://3go.3gjiayou.com/
+	\newline{}
+	Detailed achievements:
+	\begin{itemize}
+	\item Create prototypes of 3GO Android app using Axure.
+	\item Design and implement these modules: Recommendation module, account management module and so on.
+	\item Design and implement a application embedded game -- Guess Poetry independently.
+	\end{itemize}}
+%------------------------------------------------
+
+
+\section{Research}
+
+\subsection{The Institute of Advanced Computing Technology (ACT), Beihang University}
+
+\cvitem{Project}{Develop an Android app in the project of iCrowd@Beihang -- subprogram of National Basic Research Program (973 Program) }
+\cvitem{Research}{Research on Android platform and application secrity}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+\cvitem{2014}{1st prize in the OW2 programming contest, our project is iCrowd@Beihang}
+\cvitem{2014}{1st class scholarship, School of Computer Science, Beihang University}
+\cvitem{2012}{Silver Medal of \textsc{ACM/ICPC} (International Collegiate Programming Contest) in the Asia regional contest}
+\cvitem{2012}{Meritorious Winner of  \textsc{MCM} (Mathematical Contest in Modeling)}
+\cvitem{2011-2012}{obtained the National Scholarship twice}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{English Skills}
+
+\cvitem{Basic}{CET 6(542)}
+\cvitem{Advanced}{Have a good command of reading English papers and technical documents.}
+
+\section{Computer Skills}
+
+\cvitem{Basic}{Proficient in \textsc{java/C}, familiar with frequently-used data structures and algorithms.}
+\cvitem{}{Familiar with\textsc{Jsp} and \textsc{MySQL}.}
+\cvitem{Experience}{Skilled in \textsc{Android} development, one year of Android experience.}
+\cvitem{}{Website development experience with \textsc{Jsp}, familiar with \textsc{Struts/Hibernate} frameworks.}
+
+
+\section{Self Evaluation}
+\cvitem{}{Solid programming foundation, familiar with algorithms, two years ACM/ICPC contest experience.}
+\cvitem{}{Good self-learning ability, solid Math and Logic foundation, receptive to learn new knowledge.}
+\cvitem{}{Have a passion for technology, good problem-solving ability, good communication capability.}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+%----------------------------------------------------------------------------------------
+
+\end{document}
